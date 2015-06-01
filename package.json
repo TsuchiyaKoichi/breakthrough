@@ -1,0 +1,17 @@
+{
+  "name": "breakthrough",
+  "version": "1.0.0",
+  "description": "http://www.shoeisha.co.jp/book/detail/9784798139050",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-kss": "^2.0.0",
+    "jshint": "^2.7.0"
+  }
+}

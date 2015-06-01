@@ -1,0 +1,88 @@
+@charset "utf-8";
+@-ms-viewport { width: device-width; }
+
+body {
+    margin: 0;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Meiryo,"メイリオ","ＭＳ Ｐゴシック",Helvetica,Sans-Serif;;
+}
+
+header {
+    padding: 20px;
+    background-color: #0068b7;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header h1{
+    margin: 0;
+    font-size: 20px;
+    line-height: 1;
+}
+
+header p {
+    margin: 8px 0 0 0;
+    font-size: 15px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.row {
+    display: table;
+    margin-top: 2em;
+    width: 100%;
+}
+
+.row .col {
+    display: table-cell;
+}
+
+.row .col:first-child {
+    width: 200px;
+}
+
+.row .col label{
+    font-weight: bold;
+}
+
+.row .col input{
+    font-size: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #9E9E9E;
+    padding: 0.5em 0;
+    min-width: 400px;
+}
+
+.row .col input.error{
+    border-color: #E51C23;
+}
+
+.row .col ul{
+    margin-top: 0.5em;
+}
+
+.row .col li{
+    display: none;
+    color: #E51C23;
+    background: url("../../images/error.png") no-repeat left center;
+    background-size: 12px 12px;
+    padding-left: 20px;
+    margin-top: 0.5em;
+}
+
+.row .col li:first-child{
+    margin-top: 0;
+}
