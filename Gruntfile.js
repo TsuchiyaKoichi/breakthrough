@@ -16,5 +16,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-kss');
     
-    grunt.registerTask('default', []);
+    grunt.registerTask('default', ['jshint']);
 };

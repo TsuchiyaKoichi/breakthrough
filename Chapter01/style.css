@@ -29,6 +29,18 @@ header p {
     color: #FFFFFF;
 }
 
+.main {
+    margin: 0;
+    padding: 20px;
+}
+
+.main h2 {
+    font-size: 22px;
+    line-height: 1.2;
+    color: #0068b7;
+    margin: 0;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -36,7 +48,8 @@ ul {
 }
 
 section {
-    padding: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
 }
 
 .row {
@@ -77,7 +90,7 @@ section {
 .row .col li{
     display: none;
     color: #E51C23;
-    background: url("../../images/error.png") no-repeat left center;
+    background: url("../images/error.png") no-repeat left center;
     background-size: 12px 12px;
     padding-left: 20px;
     margin-top: 0.5em;

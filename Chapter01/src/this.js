@@ -1,6 +1,6 @@
 /* jshint strict: false */
 (function() {
-    
+
     function Human(name) {
         this.name = name;
     }
