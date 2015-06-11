@@ -8,7 +8,9 @@ module.exports = function(grunt) {
            files: [
                'Gruntfile.js',
                'app.js',
-               'Chapter01/**/*.js'
+               'Chapter01/**/*.js',
+               'Chapter02/**/*.js',
+               'Chapter04/**/*.js'
            ]
        } 
     });
